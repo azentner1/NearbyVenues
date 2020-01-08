@@ -3,6 +3,7 @@ package com.demo.nearbyvenues.ui.map
 import android.Manifest
 import android.content.pm.PackageManager
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -33,6 +34,11 @@ class FragmentMap : Fragment() {
 
     }
 
+    override fun onDestroy() {
+        mapViewModel.stopLocationUpdates()
+        super.onDestroy()
+    }
+
     private fun initBottomSheet() {
         val bottomSheetBehavior = BottomSheetBehavior.from(clBottomSheetRoot)
         bottomSheetBehavior.state = BottomSheetBehavior.STATE_EXPANDED
@@ -46,7 +52,7 @@ class FragmentMap : Fragment() {
             }
         })
         val bottomSheet = VenueBottomSheet.newInstance()
-        bottomSheet.show(requireFragmentManager(), "")
+        bottomSheet.show(requireFragmentManager(), VenueBottomSheet.TAG)
     }
 
     override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
@@ -69,6 +75,7 @@ class FragmentMap : Fragment() {
 
     private fun initLocationListener() {
         mapViewModel.requestLocationUpdates().observe(this@FragmentMap, Observer {
+            Log.i(TAG, "location: " + it.latitude + ":" + it.longitude)
             mapViewModel.setCurrentLocation(it)
             updateMap()
         })
@@ -79,9 +86,7 @@ class FragmentMap : Fragment() {
     }
 
     companion object {
-
         private const val TAG = "FragmentMap"
-
         private const val LOCATION_PERMISSION_CODE = 2001
 
         fun newInstance() = FragmentMap()

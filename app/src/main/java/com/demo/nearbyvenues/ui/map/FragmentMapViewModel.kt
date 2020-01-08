@@ -3,14 +3,15 @@ package com.demo.nearbyvenues.ui.map
 import android.location.Location
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.liveData
-import com.demo.nearbyvenues.data.repository.AppRepository
+import com.demo.nearbyvenues.data.location.LocationService
+import com.demo.nearbyvenues.data.repository.device.DeviceRepository
 
-class FragmentMapViewModel(private val appRepository: AppRepository) : ViewModel() {
+class FragmentMapViewModel(private val deviceRepository: DeviceRepository, private val locationService: LocationService) : ViewModel() {
 
     private var currentLocation: Location? = null
 
     fun requestLocationUpdates() = liveData {
-        emitSource(appRepository.requestLocationUpdates())
+        emitSource(locationService.requestLocationUpdates())
     }
 
     fun setCurrentLocation(location: Location) {
@@ -18,6 +19,10 @@ class FragmentMapViewModel(private val appRepository: AppRepository) : ViewModel
     }
 
     fun isLocationPermissionGranted(): Boolean {
-        return appRepository.isLocationPermissionGranted()
+        return deviceRepository.isLocationPermissionGranted()
+    }
+
+    fun stopLocationUpdates() {
+        locationService.stopLocationUpdates()
     }
 }

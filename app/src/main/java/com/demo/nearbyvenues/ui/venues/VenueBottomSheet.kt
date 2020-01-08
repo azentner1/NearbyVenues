@@ -50,6 +50,8 @@ class VenueBottomSheet : BottomSheetDialogFragment() {
     }
 
     companion object {
+        internal const val TAG = "VenueBottomSheet"
+
         fun newInstance() = VenueBottomSheet()
     }
 

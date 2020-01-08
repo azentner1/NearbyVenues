@@ -2,12 +2,12 @@ package com.demo.nearbyvenues.ui.venues
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.liveData
-import com.demo.nearbyvenues.data.repository.AppRepository
+import com.demo.nearbyvenues.data.repository.venue.VenueRepository
 
-class VenueBottomSheetViewModel(val appRepository: AppRepository) : ViewModel() {
+class   VenueBottomSheetViewModel(private val venueRepository: VenueRepository) : ViewModel() {
 
     fun fetchNearbyVenues() = liveData {
-        emitSource(appRepository.fetchVenues())
+        emitSource(venueRepository.fetchVenues())
     }
 
 }

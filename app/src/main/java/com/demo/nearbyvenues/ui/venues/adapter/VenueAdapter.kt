@@ -25,7 +25,7 @@ class VenueAdapter(private var venueList: MutableList<Venue>) : RecyclerView.Ada
     }
 
     fun setData(venueList: List<Venue>) {
-        this.venueList = venueList.toMutableList()
+        this.venueList = venueList.sortedBy { it.location.distance }.toMutableList()
         notifyDataSetChanged()
     }
 
