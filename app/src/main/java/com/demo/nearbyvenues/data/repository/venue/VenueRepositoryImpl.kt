@@ -1,12 +1,13 @@
-package com.demo.nearbyvenues.data.repository
+package com.demo.nearbyvenues.data.repository.venue
 
 import androidx.lifecycle.liveData
 import com.demo.nearbyvenues.data.api.ApiDataSource
 
 
-class AppRepositoryImpl(private val apiDataSource: ApiDataSource) : AppRepository {
+class VenueRepositoryImpl(private val apiDataSource: ApiDataSource) : VenueRepository {
 
     override fun fetchVenues() = liveData {
         emitSource(apiDataSource.fetchVenues())
     }
+
 }

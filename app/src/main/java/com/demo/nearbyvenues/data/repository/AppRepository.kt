@@ -1,9 +1,7 @@
 package com.demo.nearbyvenues.data.repository
 
-import androidx.lifecycle.LiveData
-import com.demo.nearbyvenues.data.model.VenueData
+import com.demo.nearbyvenues.data.location.LocationService
+import com.demo.nearbyvenues.data.repository.device.DeviceRepository
+import com.demo.nearbyvenues.data.repository.venue.VenueRepository
 
-
-interface AppRepository {
-    fun fetchVenues(): LiveData<VenueData>
-}
+interface AppRepository : LocationService, VenueRepository, DeviceRepository
