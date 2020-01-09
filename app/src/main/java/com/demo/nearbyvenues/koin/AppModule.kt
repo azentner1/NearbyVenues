@@ -7,13 +7,14 @@ import com.demo.nearbyvenues.data.api.ApiDataSourceImpl
 import com.demo.nearbyvenues.data.api.ApiService
 import com.demo.nearbyvenues.data.api.params.ApiParams
 import com.demo.nearbyvenues.data.api.params.ApiParamsImpl
-import com.demo.nearbyvenues.data.location.LocationService
-import com.demo.nearbyvenues.data.location.LocationServiceImpl
 import com.demo.nearbyvenues.data.repository.device.DeviceRepository
 import com.demo.nearbyvenues.data.repository.device.DeviceRepositoryImpl
+import com.demo.nearbyvenues.data.repository.location.LocationRepository
+import com.demo.nearbyvenues.data.repository.location.LocationRepositoryImpl
 import com.demo.nearbyvenues.data.repository.venue.VenueRepository
 import com.demo.nearbyvenues.data.repository.venue.VenueRepositoryImpl
 import com.demo.nearbyvenues.ui.map.FragmentMapViewModel
+import com.demo.nearbyvenues.ui.map.selected.SelectedVenueHeaderViewModel
 import com.demo.nearbyvenues.ui.venues.VenueBottomSheetViewModel
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.viewmodel.dsl.viewModel
@@ -27,7 +28,7 @@ val appModules = module {
     single<ApiParams> { ApiParamsImpl() }
 
     // location
-    single<LocationService> { LocationServiceImpl(get()) }
+    single<LocationRepository> { LocationRepositoryImpl(get()) }
 
     // repositories
     single<VenueRepository> { VenueRepositoryImpl(get()) }
@@ -41,6 +42,7 @@ val appModules = module {
 
     // view models
     viewModel { FragmentMapViewModel(get(), get(), get()) }
-    viewModel { VenueBottomSheetViewModel(get(), get()) }
+    viewModel { VenueBottomSheetViewModel(get(), get(), get()) }
+    viewModel { SelectedVenueHeaderViewModel() }
 
 }

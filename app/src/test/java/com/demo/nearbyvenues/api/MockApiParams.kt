@@ -1,21 +1,22 @@
-package com.demo.nearbyvenues.data.api.params
+package com.demo.nearbyvenues.api
 
 import com.demo.nearbyvenues.BuildConfig
+import com.demo.nearbyvenues.data.api.params.ApiParamsImpl
 import com.google.android.gms.maps.model.LatLng
 import java.text.MessageFormat
 
 
-class ApiParamsImpl : ApiParams {
+class MockApiParams {
 
-    override fun buildFoursquareAccessParams(): HashMap<String, String> {
+    fun buildFoursquareAccessParams(): HashMap<String, String> {
         val options = HashMap<String, String>()
-        options[CLIENT_ID] = BuildConfig.ForsquareClientId
-        options[CLIENT_SECRET] = BuildConfig.ForsquareClientSecret
-        options[V] = BuildConfig.ForsquareUpkeepDate
+        options[ApiParamsImpl.CLIENT_ID] = BuildConfig.ForsquareClientId
+        options[ApiParamsImpl.CLIENT_SECRET] = BuildConfig.ForsquareClientSecret
+        options[ApiParamsImpl.V] = BuildConfig.ForsquareUpkeepDate
         return options
     }
 
-    override fun buildVenueParams(northEastBound: LatLng, southWestBound: LatLng): HashMap<String, String> {
+    fun buildVenueParams(northEastBound: LatLng, southWestBound: LatLng): HashMap<String, String> {
         val options = buildFoursquareAccessParams()
         options[NE_PARAM] = MessageFormat.format("{0},{1}", northEastBound.latitude, northEastBound.longitude)
         options[SW_PARAM] = MessageFormat.format("{0},{1}", southWestBound.latitude, southWestBound.longitude)
@@ -39,4 +40,5 @@ class ApiParamsImpl : ApiParams {
         const val INTENT_PARAM_VALUE = "browse"
         const val LIMIT_PARAM_VALUE = "50"
     }
+
 }

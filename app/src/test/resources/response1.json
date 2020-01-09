@@ -1,0 +1,1692 @@
+{
+  "meta": {
+    "code": 200,
+    "requestId": "5e179bb4660a9f002558b882"
+  },
+  "response": {
+    "venues": [{
+      "id": "49e8d0b4f964a52090651fe3",
+      "name": "Googleplex - 43",
+      "location": {
+        "address": "1600 Amphitheatre Pkwy",
+        "crossStreet": "at Charleston Rd",
+        "lat": 37.421555706101486,
+        "lng": -122.08311061926261,
+        "labeledLatLngs": [{
+          "label": "display",
+          "lat": 37.421555706101486,
+          "lng": -122.08311061926261
+        }],
+        "postalCode": "94043",
+        "cc": "US",
+        "city": "Mountain View",
+        "state": "CA",
+        "country": "United States",
+        "formattedAddress": ["1600 Amphitheatre Pkwy (at Charleston Rd)",
+          "Mountain View, CA 94043",
+          "United States"]
+      },
+      "categories": [{
+        "id": "4bf58dd8d48988d124941735",
+        "name": "Office",
+        "pluralName": "Offices",
+        "shortName": "Office",
+        "icon": {
+          "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/default_",
+          "suffix": ".png"
+        },
+        "primary": true
+      }],
+      "referralId": "v-1578605685",
+      "hasPerk": false
+    },
+      {
+        "id": "4f0329add3e364d5ff7fd6c9",
+        "name": "Googleplex - Yoshka's Café",
+        "location": {
+          "address": "1600 Amphitheatre Pkwy",
+          "lat": 37.421822714115414,
+          "lng": -122.08427565377625,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.421822714115414,
+            "lng": -122.08427565377625
+          }],
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["1600 Amphitheatre Pkwy",
+            "Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [{
+          "id": "54f4ba06498e2cf5561da814",
+          "name": "Corporate Cafeteria",
+          "pluralName": "Corporate Cafeterias",
+          "shortName": "Corporate Cafeteria",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/education\/cafeteria_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "40870b00f964a5209bf21ee3",
+        "name": "Googleplex",
+        "location": {
+          "address": "1600 Amphitheatre Pkwy",
+          "crossStreet": "at Charleston Rd",
+          "lat": 37.42120370790642,
+          "lng": -122.08325349519328,
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["1600 Amphitheatre Pkwy (at Charleston Rd)",
+            "Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d124941735",
+          "name": "Office",
+          "pluralName": "Offices",
+          "shortName": "Office",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/default_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "4ae5fb66f964a520c5a321e3",
+        "name": "Googleplex - Charlie's Cafe",
+        "location": {
+          "address": "1600 Amphitheatre Pkwy",
+          "lat": 37.4220987415078,
+          "lng": -122.08402439091049,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.4220987415078,
+            "lng": -122.08402439091049
+          }],
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["1600 Amphitheatre Pkwy",
+            "Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [{
+          "id": "54f4ba06498e2cf5561da814",
+          "name": "Corporate Cafeteria",
+          "pluralName": "Corporate Cafeterias",
+          "shortName": "Corporate Cafeteria",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/education\/cafeteria_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "4a5e3250f964a52022be1fe3",
+        "name": "Googleplex - Patio",
+        "location": {
+          "address": "1600 Amphitheatre Pkwy",
+          "lat": 37.42199675152714,
+          "lng": -122.0840715663578,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.42199675152714,
+            "lng": -122.0840715663578
+          }],
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["1600 Amphitheatre Pkwy",
+            "Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d162941735",
+          "name": "Other Great Outdoors",
+          "pluralName": "Other Great Outdoors",
+          "shortName": "Other Outdoors",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/parks_outdoors\/outdoors_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "51e5dc61498e74446bc0c9d6",
+        "name": "Googleplex - 40",
+        "location": {
+          "lat": 37.42229048190511,
+          "lng": -122.08479583951473,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.42229048190511,
+            "lng": -122.08479583951473
+          }],
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["Mountain View, CA",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d124941735",
+          "name": "Office",
+          "pluralName": "Offices",
+          "shortName": "Office",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/default_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "4aaea048f964a520a96220e3",
+        "name": "Googleplex - Slice Cafe",
+        "location": {
+          "address": "1600 Amphitheatre Pkwy",
+          "lat": 37.4221914493753,
+          "lng": -122.08478148315766,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.4221914493753,
+            "lng": -122.08478148315766
+          }],
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["1600 Amphitheatre Pkwy",
+            "Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [{
+          "id": "54f4ba06498e2cf5561da814",
+          "name": "Corporate Cafeteria",
+          "pluralName": "Corporate Cafeterias",
+          "shortName": "Corporate Cafeteria",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/education\/cafeteria_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "5071f05ee4b0e78a1b1a2a75",
+        "name": "Google - Android Building",
+        "location": {
+          "lat": 37.42180712964749,
+          "lng": -122.08323130302855,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.42180712964749,
+            "lng": -122.08323130302855
+          }],
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d130941735",
+          "name": "Building",
+          "pluralName": "Buildings",
+          "shortName": "Building",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/default_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "571a981e498eec367a4614cc",
+        "name": "Googleplex - Go! Cafe",
+        "location": {
+          "lat": 37.42186659969721,
+          "lng": -122.08496064111908,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.42186659969721,
+            "lng": -122.08496064111908
+          }],
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["Mountain View, CA",
+            "United States"]
+        },
+        "categories": [{
+          "id": "54f4ba06498e2cf5561da814",
+          "name": "Corporate Cafeteria",
+          "pluralName": "Corporate Cafeterias",
+          "shortName": "Corporate Cafeteria",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/education\/cafeteria_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "4af9b2f6f964a520751322e3",
+        "name": "Googleplex - B40 Gym",
+        "location": {
+          "address": "1600 Amphitheatre Pkwy",
+          "crossStreet": "Charleston Rd",
+          "lat": 37.42226841463153,
+          "lng": -122.08491451166879,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.42226841463153,
+            "lng": -122.08491451166879
+          }],
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["1600 Amphitheatre Pkwy (Charleston Rd)",
+            "Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d176941735",
+          "name": "Gym",
+          "pluralName": "Gyms",
+          "shortName": "Gym",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/gym_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "4d92a7a5b189721e4bfb262a",
+        "name": "Google Earth",
+        "location": {
+          "lat": 37.42211136316625,
+          "lng": -122.08305871375437,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.42211136316625,
+            "lng": -122.08305871375437
+          }],
+          "cc": "US",
+          "state": "California",
+          "country": "United States",
+          "formattedAddress": ["California",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d124941735",
+          "name": "Office",
+          "pluralName": "Offices",
+          "shortName": "Office",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/default_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "4e84fe6ed3e368a6f893f14e",
+        "name": "T Rex Google",
+        "location": {
+          "lat": 37.421896109903415,
+          "lng": -122.08494027659633,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.421896109903415,
+            "lng": -122.08494027659633
+          }],
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["Mountain View, CA",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4d4b7105d754a06377d81259",
+          "name": "Outdoors & Recreation",
+          "pluralName": "Outdoors & Recreation",
+          "shortName": "Outdoors & Recreation",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/parks_outdoors\/default_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "49e8d0ddf964a52092651fe3",
+        "name": "Googleplex - 44",
+        "location": {
+          "address": "1625 Charleston Rd",
+          "crossStreet": "at Huff Ave",
+          "lat": 37.42012206220856,
+          "lng": -122.08388768371576,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.42012206220856,
+            "lng": -122.08388768371576
+          }],
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["1625 Charleston Rd (at Huff Ave)",
+            "Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d124941735",
+          "name": "Office",
+          "pluralName": "Offices",
+          "shortName": "Office",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/default_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "49e8d060f964a5208d651fe3",
+        "name": "Googleplex - 41",
+        "location": {
+          "address": "1600 Amphitheatre Pkwy",
+          "crossStreet": "at Charleston",
+          "lat": 37.42244759155435,
+          "lng": -122.0854248597029,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.42244759155435,
+            "lng": -122.0854248597029
+          }],
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["1600 Amphitheatre Pkwy (at Charleston)",
+            "Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d124941735",
+          "name": "Office",
+          "pluralName": "Offices",
+          "shortName": "Office",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/default_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "49e8d08bf964a5208f651fe3",
+        "name": "Googleplex - 42",
+        "location": {
+          "address": "1600 Amphitheatre Pkwy",
+          "crossStreet": "at Charleston",
+          "lat": 37.42191492286514,
+          "lng": -122.08564083103052,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.42191492286514,
+            "lng": -122.08564083103052
+          }],
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["1600 Amphitheatre Pkwy (at Charleston)",
+            "Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d124941735",
+          "name": "Office",
+          "pluralName": "Offices",
+          "shortName": "Office",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/default_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "5751d3cb498e98ca098b21b7",
+        "name": "Happy Fish",
+        "location": {
+          "lat": 37.41879141102483,
+          "lng": -122.08279300684411,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.41879141102483,
+            "lng": -122.08279300684411
+          }],
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["Mountain View, CA",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d1cb941735",
+          "name": "Food Truck",
+          "pluralName": "Food Trucks",
+          "shortName": "Food Truck",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/streetfood_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "55a6bb4c498ea7e1d94cbcee",
+        "name": "Googleplex - Costa",
+        "location": {
+          "address": "1625 Charleston Rd",
+          "lat": 37.42000101238079,
+          "lng": -122.08348680045991,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.42000101238079,
+            "lng": -122.08348680045991
+          }],
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["1625 Charleston Rd",
+            "Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [{
+          "id": "54f4ba06498e2cf5561da814",
+          "name": "Corporate Cafeteria",
+          "pluralName": "Corporate Cafeterias",
+          "shortName": "Corporate Cafeteria",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/education\/cafeteria_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "50be9909e4b07ff4710b28f9",
+        "name": "Google Bicycles",
+        "location": {
+          "lat": 37.42058199958247,
+          "lng": -122.08364066357059,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.42058199958247,
+            "lng": -122.08364066357059
+          }],
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4e4c9077bd41f78e849722f9",
+          "name": "Bike Rental \/ Bike Share",
+          "pluralName": "Bike Rentals \/ Bike Shares",
+          "shortName": "Bike",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/shops\/bikeshop_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "56a00339498e4578abfdb45d",
+        "name": "Quad Connector",
+        "location": {
+          "lat": 37.42034577810906,
+          "lng": -122.08272088198578,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.42034577810906,
+            "lng": -122.08272088198578
+          }],
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["Mountain View, CA",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4f2a23984b9023bd5841ed2c",
+          "name": "Moving Target",
+          "pluralName": "Moving Targets",
+          "shortName": "Moving Target",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/travel\/movingtarget_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "49efa8acf964a520e6681fe3",
+        "name": "Googleplex - 1098",
+        "location": {
+          "address": "1098 Alta Ave",
+          "crossStreet": "at Charleston Rd",
+          "lat": 37.42012466080474,
+          "lng": -122.08623726719132,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.42012466080474,
+            "lng": -122.08623726719132
+          }],
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["1098 Alta Ave (at Charleston Rd)",
+            "Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d124941735",
+          "name": "Office",
+          "pluralName": "Offices",
+          "shortName": "Office",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/default_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "581cde4a1dbf6c6cf4a7d60d",
+        "name": "Fine Sauce Social Club",
+        "location": {
+          "lat": 37.4200756071346,
+          "lng": -122.08353644489563,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.4200756071346,
+            "lng": -122.08353644489563
+          }],
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d1cb941735",
+          "name": "Food Truck",
+          "pluralName": "Food Trucks",
+          "shortName": "Food Truck",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/streetfood_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "4b82f26ff964a520c9ee30e3",
+        "name": "Charleston Park",
+        "location": {
+          "address": "1500-1598 Charleston Rd",
+          "crossStreet": "btw Huff Ave & Joaquin Rd",
+          "lat": 37.42196696767112,
+          "lng": -122.08227703564766,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.42196696767112,
+            "lng": -122.08227703564766
+          }],
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["1500-1598 Charleston Rd (btw Huff Ave & Joaquin Rd)",
+            "Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d163941735",
+          "name": "Park",
+          "pluralName": "Parks",
+          "shortName": "Park",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/parks_outdoors\/park_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "49e8d105f964a52093651fe3",
+        "name": "Googleplex - 45",
+        "location": {
+          "address": "1585 Charleston Rd",
+          "crossStreet": "at Huff Ave",
+          "lat": 37.41972773024694,
+          "lng": -122.0821373796339,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.41972773024694,
+            "lng": -122.0821373796339
+          }],
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["1585 Charleston Rd (at Huff Ave)",
+            "Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d124941735",
+          "name": "Office",
+          "pluralName": "Offices",
+          "shortName": "Office",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/default_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "4b6857b9f964a520c5722be3",
+        "name": "Google Bus",
+        "location": {
+          "address": "1600 Amphitheatre Pkwy",
+          "lat": 37.42085776359828,
+          "lng": -122.08354754094736,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.42085776359828,
+            "lng": -122.08354754094736
+          }],
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["1600 Amphitheatre Pkwy",
+            "Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d12b951735",
+          "name": "Bus Line",
+          "pluralName": "Bus Lines",
+          "shortName": "Bus",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/travel\/busstation_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "573e0eaf498eb4a7b6bb40b2",
+        "name": "County Line California Breakfast",
+        "location": {
+          "lat": 37.42145048739081,
+          "lng": -122.08270978584946,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.42145048739081,
+            "lng": -122.08270978584946
+          }],
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["Mountain View, CA",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d1cb941735",
+          "name": "Food Truck",
+          "pluralName": "Food Trucks",
+          "shortName": "Food Truck",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/streetfood_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "5d7af133a5966e000810f481",
+        "name": "Charleston Park - Zone 1",
+        "location": {
+          "lat": 37.420933,
+          "lng": -122.082146,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.420933,
+            "lng": -122.082146
+          }],
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [{
+          "id": "52f2ab2ebcbc57f1066b8b4f",
+          "name": "Bus Stop",
+          "pluralName": "Bus Stops",
+          "shortName": "Bus Stop",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/travel\/busstation_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "4bcba05e68f976b0ec886183",
+        "name": "Googleplex - B46 Gym",
+        "location": {
+          "address": "1565 Charleston Rd",
+          "crossStreet": "at Huff",
+          "lat": 37.41913975153109,
+          "lng": -122.08227557008723,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.41913975153109,
+            "lng": -122.08227557008723
+          }],
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["1565 Charleston Rd (at Huff)",
+            "Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d176941735",
+          "name": "Gym",
+          "pluralName": "Gyms",
+          "shortName": "Gym",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/gym_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "4fc8f58fe4b07277ab804bca",
+        "name": "Googleplex - Tunis",
+        "location": {
+          "address": "1600 Amphitheatre Pkwy",
+          "crossStreet": "Charleston",
+          "lat": 37.421732,
+          "lng": -122.08416,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.421732,
+            "lng": -122.08416
+          }],
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["1600 Amphitheatre Pkwy (Charleston)",
+            "Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d173941735",
+          "name": "Auditorium",
+          "pluralName": "Auditoriums",
+          "shortName": "Auditorium",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/auditorium_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "504f72aee4b098d93b51cdc4",
+        "name": "Partnerplex",
+        "location": {
+          "address": "1600 Amphitheatre Pkwy",
+          "lat": 37.42220409467023,
+          "lng": -122.0830555968949,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.42220409467023,
+            "lng": -122.0830555968949
+          }],
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["1600 Amphitheatre Pkwy",
+            "Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d130941735",
+          "name": "Building",
+          "pluralName": "Buildings",
+          "shortName": "Building",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/default_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "5890c6e55e56b441c6b7b8c2",
+        "name": "Googleplex - S'WICH",
+        "location": {
+          "address": "1585 Charleston Rd",
+          "lat": 37.420021227770604,
+          "lng": -122.08234705541341,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.420021227770604,
+            "lng": -122.08234705541341
+          }],
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["1585 Charleston Rd",
+            "Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [{
+          "id": "54f4ba06498e2cf5561da814",
+          "name": "Corporate Cafeteria",
+          "pluralName": "Corporate Cafeterias",
+          "shortName": "Corporate Cafeteria",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/education\/cafeteria_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "4e2b5604a809f1b1640f3c48",
+        "name": "Google Apple Club",
+        "location": {
+          "lat": 37.42263554887914,
+          "lng": -122.08127837474456,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.42263554887914,
+            "lng": -122.08127837474456
+          }],
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d1a9941735",
+          "name": "College Rec Center",
+          "pluralName": "College Rec Centers",
+          "shortName": "Rec Center",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/education\/reccenter_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "56fad7cc498e4a65672b5b3a",
+        "name": "Adobo-A-Go-Go",
+        "location": {
+          "lat": 37.42053009969639,
+          "lng": -122.08167784020945,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.42053009969639,
+            "lng": -122.08167784020945
+          }],
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["Mountain View, CA",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d1cb941735",
+          "name": "Food Truck",
+          "pluralName": "Food Trucks",
+          "shortName": "Food Truck",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/streetfood_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "4eb468d99a52ad1e3e813d75",
+        "name": "Googleplex Helipad",
+        "location": {
+          "lat": 37.42215559010391,
+          "lng": -122.08765300213176,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.42215559010391,
+            "lng": -122.08765300213176
+          }],
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "4ce6a8c5b9975481058ff144",
+        "name": "Googleplex - Kiev",
+        "location": {
+          "lat": 37.422255,
+          "lng": -122.083793,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.422255,
+            "lng": -122.083793
+          }],
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["Mountain View, CA",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d173941735",
+          "name": "Auditorium",
+          "pluralName": "Auditoriums",
+          "shortName": "Auditorium",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/auditorium_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "5b9aa84d2f97ec002d8cc8d2",
+        "name": "Googleplex \u2013 Badge Office",
+        "location": {
+          "address": "1600 Amphitheatre Pkwy",
+          "lat": 37.421509,
+          "lng": -122.08459,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.421509,
+            "lng": -122.08459
+          }],
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["1600 Amphitheatre Pkwy",
+            "Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d124941735",
+          "name": "Office",
+          "pluralName": "Offices",
+          "shortName": "Office",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/default_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "4e2ef643e4cdb5a70d636d74",
+        "name": "Googleplex 40 - Health & Wellness Center",
+        "location": {
+          "address": "1600 Amphitheatre Pkwy",
+          "crossStreet": "at Charleston Rd",
+          "lat": 37.422350376318875,
+          "lng": -122.08448237917978,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.422350376318875,
+            "lng": -122.08448237917978
+          }],
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["1600 Amphitheatre Pkwy (at Charleston Rd)",
+            "Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d104941735",
+          "name": "Medical Center",
+          "pluralName": "Medical Centers",
+          "shortName": "Medical",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/medical_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "4b803d9ff964a520e95f30e3",
+        "name": "Googleplex - Volleyball Court",
+        "location": {
+          "address": "1600 Amphitheatre Pkwy",
+          "crossStreet": "at Charleston Rd.",
+          "lat": 37.42198072017146,
+          "lng": -122.08488086014079,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.42198072017146,
+            "lng": -122.08488086014079
+          }],
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["1600 Amphitheatre Pkwy (at Charleston Rd.)",
+            "Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4eb1bf013b7b6f98df247e07",
+          "name": "Volleyball Court",
+          "pluralName": "Volleyball Courts",
+          "shortName": "Volleyball Court",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/parks_outdoors\/volleyballcourt_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "5813a6d238fa89b92fff9540",
+        "name": "Hunt + Gather",
+        "location": {
+          "lat": 37.419123252127896,
+          "lng": -122.08268759357344,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.419123252127896,
+            "lng": -122.08268759357344
+          }],
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d1cb941735",
+          "name": "Food Truck",
+          "pluralName": "Food Trucks",
+          "shortName": "Food Truck",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/streetfood_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "5aac3ac70a08ab4a090ab45a",
+        "name": "Good Vibes: B41 Coffee Bar",
+        "location": {
+          "lat": 37.42214,
+          "lng": -122.08357,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.42214,
+            "lng": -122.08357
+          }],
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [{
+          "id": "54f4ba06498e2cf5561da814",
+          "name": "Corporate Cafeteria",
+          "pluralName": "Corporate Cafeterias",
+          "shortName": "Corporate Cafeteria",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/education\/cafeteria_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "54de570a498e06e80732d390",
+        "name": "Big Table",
+        "location": {
+          "lat": 37.42214563835412,
+          "lng": -122.08479583951473,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.42214563835412,
+            "lng": -122.08479583951473
+          }],
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["Mountain View, CA",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d128941735",
+          "name": "Cafeteria",
+          "pluralName": "Cafeterias",
+          "shortName": "Cafeteria",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/education\/cafeteria_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "4dba6837ffcbcd485660793c",
+        "name": "Android Market",
+        "location": {
+          "address": "1600 Amphitheatre Pkwy",
+          "crossStreet": "Google Headquarters",
+          "lat": 37.420892001103454,
+          "lng": -122.08442967342467,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.420892001103454,
+            "lng": -122.08442967342467
+          }],
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["1600 Amphitheatre Pkwy (Google Headquarters)",
+            "Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d122951735",
+          "name": "Electronics Store",
+          "pluralName": "Electronics Stores",
+          "shortName": "Electronics",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/shops\/technology_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "4d1a78bc2a52b60cddbcefff",
+        "name": "American Century Investments",
+        "location": {
+          "lat": 37.420148,
+          "lng": -122.084636,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.420148,
+            "lng": -122.084636
+          }],
+          "cc": "US",
+          "state": "California",
+          "country": "United States",
+          "formattedAddress": ["California",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d124941735",
+          "name": "Office",
+          "pluralName": "Offices",
+          "shortName": "Office",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/default_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "56ce0c52cd109b43646b1b49",
+        "name": "El Cubanito",
+        "location": {
+          "lat": 37.4194872905627,
+          "lng": -122.08290951612933,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.4194872905627,
+            "lng": -122.08290951612933
+          }],
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["Mountain View, CA",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d1cb941735",
+          "name": "Food Truck",
+          "pluralName": "Food Trucks",
+          "shortName": "Food Truck",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/streetfood_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "5669d8aa498ed743744184b2",
+        "name": "Koko's Korean Burritos Food Truck",
+        "location": {
+          "lat": 37.41871579055425,
+          "lng": -122.08274862232159,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.41871579055425,
+            "lng": -122.08274862232159
+          }],
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["Mountain View, CA",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d1cb941735",
+          "name": "Food Truck",
+          "pluralName": "Food Trucks",
+          "shortName": "Food Truck",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/streetfood_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "5bb52291f4b525002c36e413",
+        "name": "Philly Cheese Steak",
+        "location": {
+          "address": "Bishop Ranch 1",
+          "crossStreet": "Bollinget Canyon Rd",
+          "lat": 37.4188668119875,
+          "lng": -122.082698689712,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.4188668119875,
+            "lng": -122.082698689712
+          }],
+          "postalCode": "94583",
+          "cc": "US",
+          "city": "San Ramon",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["Bishop Ranch 1 (Bollinget Canyon Rd)",
+            "San Ramon, CA 94583",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d1cb941735",
+          "name": "Food Truck",
+          "pluralName": "Food Trucks",
+          "shortName": "Food Truck",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/streetfood_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "564a471b498e8e6a5c3074de",
+        "name": "mikomiko",
+        "location": {
+          "lat": 37.418697869607975,
+          "lng": -122.08255998789815,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.418697869607975,
+            "lng": -122.08255998789815
+          }],
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["Mountain View, CA",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d1cb941735",
+          "name": "Food Truck",
+          "pluralName": "Food Trucks",
+          "shortName": "Food Truck",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/streetfood_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "5ad643fd6eda0228c0025f7a",
+        "name": "chx plz",
+        "location": {
+          "lat": 37.418776847172566,
+          "lng": -122.08259327634966,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.418776847172566,
+            "lng": -122.08259327634966
+          }],
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d1cb941735",
+          "name": "Food Truck",
+          "pluralName": "Food Trucks",
+          "shortName": "Food Truck",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/streetfood_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "5d851dfb62e8a0000885beed",
+        "name": "Moke Ga Korean Kitchen",
+        "location": {
+          "lat": 37.4219725351635,
+          "lng": -122.08560029097535,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.4219725351635,
+            "lng": -122.08560029097535
+          }],
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d1cb941735",
+          "name": "Food Truck",
+          "pluralName": "Food Trucks",
+          "shortName": "Food Truck",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/streetfood_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "5c195864e55d8b002cc489e3",
+        "name": "Tsukiji Electric Sushi",
+        "location": {
+          "lat": 37.418944588496046,
+          "lng": -122.0825655359741,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.418944588496046,
+            "lng": -122.0825655359741
+          }],
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d1cb941735",
+          "name": "Food Truck",
+          "pluralName": "Food Trucks",
+          "shortName": "Food Truck",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/streetfood_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      },
+      {
+        "id": "4b44eee2f964a520220026e3",
+        "name": "Mountain View Public Library Bookmobile - Googleplex",
+        "location": {
+          "address": "1600 Amphitheatre Pkwy",
+          "lat": 37.42210621070131,
+          "lng": -122.08527296317034,
+          "labeledLatLngs": [{
+            "label": "display",
+            "lat": 37.42210621070131,
+            "lng": -122.08527296317034
+          }],
+          "postalCode": "94043",
+          "cc": "US",
+          "city": "Mountain View",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": ["1600 Amphitheatre Pkwy",
+            "Mountain View, CA 94043",
+            "United States"]
+        },
+        "categories": [{
+          "id": "4bf58dd8d48988d12f941735",
+          "name": "Library",
+          "pluralName": "Libraries",
+          "shortName": "Library",
+          "icon": {
+            "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/library_",
+            "suffix": ".png"
+          },
+          "primary": true
+        }],
+        "referralId": "v-1578605685",
+        "hasPerk": false
+      }]
+  }
+}

@@ -20,6 +20,9 @@ android {
             minifyEnabled false
 //            buildConfigField("String", "ApiKey", "\"bWFydGlhbmFuZG1hY2hpbmU=\"")
             buildConfigField("String", "ApiUrl", "\"https://api.foursquare.com/v2/\"")
+            buildConfigField("String", "ForsquareClientId", "\"YVESX2G2PWEGKBKFLGJJ2HSQWAOWDCSO0DNAKLRPWOGNAH0A\"")
+            buildConfigField("String", "ForsquareClientSecret", "\"BVIB3OQFBHLLBMNN5GKJRBUGHN514OTDPI5P0T5MEAJMTDIF\"")
+            buildConfigField("String", "ForsquareUpkeepDate", "\"20211231\"")
         }
         release {
             minifyEnabled false
@@ -87,4 +90,5 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+    testImplementation 'com.squareup.okhttp3:mockwebserver:4.2.2'
 }

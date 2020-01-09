@@ -12,10 +12,36 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <com.demo.nearbyvenues.ui.venues.VenueBottomSheet
-        android:id="@+id/venueBottomSheet"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"/>
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ivMapCenterMarker"
+                android:layout_width="@dimen/space_24"
+                android:layout_height="@dimen/space_24"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_map_center_marker" />
+
+        </FrameLayout>
+
+        <com.demo.nearbyvenues.ui.venues.VenueBottomSheet
+            android:id="@+id/venueBottomSheet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="bottom" />
+    </LinearLayout>
+
+    <com.demo.nearbyvenues.ui.map.selected.SelectedVenueHeader
+        android:id="@+id/selectedVenueHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </FrameLayout>

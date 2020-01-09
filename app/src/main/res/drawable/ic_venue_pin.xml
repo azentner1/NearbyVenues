@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <path
+        android:fillColor="@color/venue_pin"
+        android:pathData="M12,0 C7.802,0,4,3.403,4,7.602 C4,11.8,7.469,16.812,12,24
+C16.531,16.812,20,11.8,20,7.602 C20,3.403,16.199,0,12,0 Z M12,11
+C10.343,11,9,9.657,9,8 S10.343,5,12,5 S15,6.343,15,8 S13.657,11,12,11 Z" />
+</vector>

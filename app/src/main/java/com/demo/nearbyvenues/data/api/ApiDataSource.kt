@@ -6,8 +6,5 @@ import com.google.android.gms.maps.model.LatLng
 
 
 interface ApiDataSource {
-    fun fetchVenues(
-        northEastBound: LatLng,
-        southWestBound: LatLng
-    ): LiveData<VenueData>
+    fun fetchVenues(northEastBound: LatLng, southWestBound: LatLng): LiveData<VenueData>
 }

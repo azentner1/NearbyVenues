@@ -2,10 +2,10 @@ package com.demo.nearbyvenues.base
 
 import android.app.Application
 import com.demo.nearbyvenues.koin.appModules
+import com.demo.nearbyvenues.utils.SharedPrefsUtil
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin
-
 
 class App : Application() {
 
@@ -16,5 +16,6 @@ class App : Application() {
             androidContext(this@App)
             modules(appModules)
         }
+        SharedPrefsUtil.initialize(this@App)
     }
 }

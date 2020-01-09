@@ -1,4 +1,4 @@
-package com.demo.nearbyvenues.data.location
+package com.demo.nearbyvenues.data.repository.location
 
 import android.content.Context
 import android.location.Location
@@ -9,16 +9,15 @@ import com.google.android.gms.location.LocationCallback
 import com.google.android.gms.location.LocationRequest
 import com.google.android.gms.location.LocationResult
 import com.google.android.gms.location.LocationServices
-import com.google.android.gms.maps.model.LatLngBounds
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.koin.ext.getFullName
 
 
-class LocationServiceImpl(private val context: Context) : LocationService, LocationCallback() {
+class LocationRepositoryImpl(private val context: Context) : LocationRepository, LocationCallback() {
 
     private var currentLocation =  MutableLiveData<Location>()
-    private var currentBounds =  MutableLiveData<LatLngBounds>()
+    private var locationPermissionRequest =  MutableLiveData<Boolean>()
 
     private val fusedLocationClient by lazy {
         LocationServices.getFusedLocationProviderClient(context)
@@ -57,19 +56,19 @@ class LocationServiceImpl(private val context: Context) : LocationService, Locat
         }
     }
 
-    override fun setCurrentBounds(latLngBounds: LatLngBounds) {
-        currentBounds.postValue(latLngBounds)
+    override fun requestLocationPermissions() {
+        locationPermissionRequest.postValue(true)
     }
 
-    override suspend fun getCurrentBounds() : LiveData<LatLngBounds> {
+    override suspend fun requestedLocationPermissions() : LiveData<Boolean> {
         return withContext(Dispatchers.Main) {
-            currentBounds
+            locationPermissionRequest
         }
     }
 
     companion object {
 
-        private val TAG = LocationServiceImpl::class.getFullName()
+        private val TAG = LocationRepositoryImpl::class.getFullName()
 
         private const val LOCATION_FETCH_INTERVAL: Long = 20 * 1000
         private const val LOCATION_FASTEST_FETCH_INTERVAL: Long = 20 * 1000

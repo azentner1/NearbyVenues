@@ -1,15 +1,14 @@
-package com.demo.nearbyvenues.data.location
+package com.demo.nearbyvenues.data.repository.location
 
 import android.location.Location
 import androidx.lifecycle.LiveData
-import com.google.android.gms.maps.model.LatLngBounds
 
 
-interface LocationService {
+interface LocationRepository {
     fun startLocationUpdates()
     suspend fun requestLocationUpdates(): LiveData<Location>
     fun stopLocationUpdates()
     suspend fun getCurrentLocation(): LiveData<Location>
-    fun setCurrentBounds(latLngBounds: LatLngBounds)
-    suspend fun getCurrentBounds() : LiveData<LatLngBounds>
+    fun requestLocationPermissions()
+    suspend fun requestedLocationPermissions() : LiveData<Boolean>
 }
