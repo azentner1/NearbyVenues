@@ -9,6 +9,7 @@ import com.google.android.gms.location.LocationCallback
 import com.google.android.gms.location.LocationRequest
 import com.google.android.gms.location.LocationResult
 import com.google.android.gms.location.LocationServices
+import com.google.android.gms.maps.model.LatLngBounds
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.koin.ext.getFullName
@@ -17,6 +18,7 @@ import org.koin.ext.getFullName
 class LocationServiceImpl(private val context: Context) : LocationService, LocationCallback() {
 
     private var currentLocation =  MutableLiveData<Location>()
+    private var currentBounds =  MutableLiveData<LatLngBounds>()
 
     private val fusedLocationClient by lazy {
         LocationServices.getFusedLocationProviderClient(context)
@@ -47,6 +49,22 @@ class LocationServiceImpl(private val context: Context) : LocationService, Locat
 
     override fun stopLocationUpdates() {
         fusedLocationClient.removeLocationUpdates(this)
+    }
+
+    override suspend fun getCurrentLocation() : LiveData<Location> {
+        return withContext(Dispatchers.Main) {
+            currentLocation
+        }
+    }
+
+    override fun setCurrentBounds(latLngBounds: LatLngBounds) {
+        currentBounds.postValue(latLngBounds)
+    }
+
+    override suspend fun getCurrentBounds() : LiveData<LatLngBounds> {
+        return withContext(Dispatchers.Main) {
+            currentBounds
+        }
     }
 
     companion object {

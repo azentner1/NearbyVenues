@@ -1,5 +1,8 @@
 package com.demo.nearbyvenues.data.api.params
 
+import com.google.android.gms.maps.model.LatLng
+import java.text.MessageFormat
+
 
 class ApiParamsImpl : ApiParams {
 
@@ -11,11 +14,11 @@ class ApiParamsImpl : ApiParams {
         return options
     }
 
-    override fun buildVenueParams(): HashMap<String, String> {
+    override fun buildVenueParams(northEastBound: LatLng, southWestBound: LatLng): HashMap<String, String> {
         val options = buildFoursquareAccessParams()
-        options["ll"] = "40.74224,-73.99386"
+        options["ne"] = MessageFormat.format("{0},{1}", northEastBound.latitude, northEastBound.longitude)
+        options["sw"] = MessageFormat.format("{0},{1}", southWestBound.latitude, southWestBound.longitude)
         options["intent"] = "browse"
-        options["radius"] = "2000"
 //        options["query"] = "[food, restaurant, store]"
         options["limit"] = "50"
         return options

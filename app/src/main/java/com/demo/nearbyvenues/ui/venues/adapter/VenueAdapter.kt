@@ -9,7 +9,7 @@ import com.demo.nearbyvenues.data.model.Venue
 import kotlinx.android.synthetic.main.venue_list_item.view.*
 
 
-class VenueAdapter(private var venueList: MutableList<Venue>) : RecyclerView.Adapter<VenueAdapter.ViewHolder>() {
+class VenueAdapter(private var venueList: MutableList<Venue> = mutableListOf(), private val onVenueSelected: (venue: Venue) -> Unit = {}) : RecyclerView.Adapter<VenueAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.venue_list_item, parent, false)
@@ -34,6 +34,9 @@ class VenueAdapter(private var venueList: MutableList<Venue>) : RecyclerView.Ada
             itemView.txtVenueName.text = venue.name
 //            itemView.txtVenueType.text = venue.ca.name
             itemView.txtVenueType.text = venue.location.address
+            itemView.setOnClickListener {
+                onVenueSelected.invoke(venue)
+            }
         }
     }
 }

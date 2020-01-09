@@ -1,13 +1,17 @@
 package com.demo.nearbyvenues.ui.venues
 
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.liveData
+import com.demo.nearbyvenues.data.model.Venue
+import com.demo.nearbyvenues.data.repository.device.DeviceRepository
 import com.demo.nearbyvenues.data.repository.venue.VenueRepository
 
-class   VenueBottomSheetViewModel(private val venueRepository: VenueRepository) : ViewModel() {
+class VenueBottomSheetViewModel(private val venueRepository: VenueRepository, private val deviceRepository: DeviceRepository) : ViewModel() {
 
-    fun fetchNearbyVenues() = liveData {
-        emitSource(venueRepository.fetchVenues())
+    fun getBottomSheetMaxSize() : Int {
+        return deviceRepository.getScreenSize() / 3
     }
 
+    fun updateSelectedVenue(venue: Venue) {
+        venueRepository.setSelectedVenue(venue)
+    }
 }
